@@ -50,3 +50,7 @@ augroup END
 if has('syntax') && has('eval')
   packadd! matchit
 endif
+
+filetype plugin on
+syntax on
+set number
